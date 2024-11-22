@@ -4,6 +4,6 @@
 local TS = require(game:GetService("ReplicatedStorage"):WaitForChild("RobloxTS"):WaitForChild("rbxts_include"):WaitForChild("RuntimeLib"));
 local exports = {};
 local BacktrackableHitboxCFrame = TS.import(script, game:GetService("ServerStorage"), "LagCompensation", "History", "BacktrackableHitboxCFrame").BacktrackableHitboxCFrame;
-local FRAME_COUNT = 30;
+local FRAME_COUNT = 60;
 exports.Hitbox = BacktrackableHitboxCFrame.new(script.Parent, FRAME_COUNT);
 return exports;
